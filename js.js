@@ -1,5 +1,5 @@
 // The OMDB API is stored in the "url" variable
-let url = "http://www.omdbapi.com/?apikey=499a8b3f&t=";
+let url = "//www.omdbapi.com/?apikey=499a8b3f&t=";
 // This variable contains the JSON data for "title" and "youtubeId"
 let movieJson = {
     "movies":[{
@@ -72,7 +72,7 @@ for (let i = 0; i < movieJson.movies.length; i++) {
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 
-tag.src = "https://www.youtube.com/iframe_api";
+tag.src = "//www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
