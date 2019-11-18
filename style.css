@@ -1,0 +1,93 @@
+/*This removes any automatic spacing in the window*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*I'm assigning a grid area for my header, and styling the colors and spacing*/
+.header{
+    grid-area: header;
+    background-color: #540000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+/*Here I am assigning more grid areas, some of these may be unused after making the tags in JavaScript, but it still works */
+.item1{
+    grid-area: section1;
+}
+.item2{
+    grid-area: section2;
+}
+.item3{
+    grid-area: section3;
+}
+.item4{
+    grid-area: section4;
+}
+.item5{
+    grid-area: section5;
+}
+.item6{
+    grid-area: section6;
+}
+.footer{
+    grid-area: footer;
+}
+
+/*This is my grid container. I use a grid template to display the sections in the order I would like. This layout is mobile-first*/
+#container {
+    display: grid;
+    grid-template-areas:
+            'header header'
+            'section1 section1'
+            'section2 section2'
+            'section3 section3'
+            'section4 section4'
+            'section5 section5'
+            'section6 section6'
+            'footer footer';
+}
+
+/*Color change for the background on the entire page*/
+body{
+    background-color: #171717;
+}
+
+/*Color, font, spacing and size changes for my paragraphs */
+p{
+    color: #E8E8E8;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+/*Color, font, alignment and size changes for my main header*/
+h1{
+    color: #E8E8E8;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+/*Color, font, alignment and spacing changes for my secondary headers*/
+h2{
+    color: #E8E8E8;
+    font-family: "Century Gothic";
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/*Alignment and size changes for my images*/
+img{
+    display: block;
+    margin: 5% auto;
+    width: 50%;
+}
+
+/*Alignment and spacing changes for my videos*/
+iframe {
+    display: block;
+    margin: 10% auto;
+}
