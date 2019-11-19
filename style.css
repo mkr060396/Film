@@ -35,7 +35,7 @@
 }
 
 /*This is my grid container. I use a grid template to display the sections in the order I would like. This layout is mobile-first*/
-#container {
+#movieContainer {
     display: grid;
     grid-template-areas:
             'header header'
@@ -101,7 +101,7 @@ iframe {
 
 @media only screen and (min-width: 992px) {
     img {
-        width: 10%;
+        width: 50%;
     }
 
     h1 {

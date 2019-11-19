@@ -38,7 +38,7 @@ for (let i = 0; i < movieJson.movies.length; i++) {
             const box = document.createElement("li");
             const section = document.createElement("section");
             section.setAttribute("class", "movie");
-            
+
 
             const h2 = document.createElement("h2");
             h2.setAttribute("class", "movieTitle");
