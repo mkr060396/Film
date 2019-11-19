@@ -71,7 +71,7 @@ h1{
     color: white;
     font-family: 'Creepster', cursive;
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 /*Color, font, alignment and spacing changes for my secondary headers*/
@@ -99,3 +99,23 @@ iframe {
     margin: 10% auto;
 }
 
+@media only screen and (min-width: 992px) {
+    img {
+        width: 10%;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
