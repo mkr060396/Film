@@ -58,7 +58,7 @@ body{
 /*Color, font, spacing and size changes for my paragraphs */
 p{
     color: white;
-    font-family: "Century Gothic";
+    font-family: 'Cousine', monospace;
     font-size: 16px;
     margin-left: 10%;
     margin-right: 10%;
@@ -68,7 +68,7 @@ p{
 
 /*Color, font, alignment and size changes for my main header*/
 h1{
-    color: #E8E8E8;
+    color: white;
     font-family: 'Creepster', cursive;
     text-align: center;
     font-size: 100px;
@@ -77,9 +77,10 @@ h1{
 /*Color, font, alignment and spacing changes for my secondary headers*/
 h2{
     color: white;
-    font-family: "Century Gothic";
+    font-family: 'Cousine', monospace;
     text-align: center;
     margin-bottom: 5%;
+    font-size: 50px;
 }
 
 /*Alignment and size changes for my images*/
